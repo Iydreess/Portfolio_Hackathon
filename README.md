@@ -9,11 +9,14 @@
 
 ## 👨‍💻 Developer
 **Iddris Rashid Swedi**  
-Software Engineer & Graphic Designer
+Software Engineer & Graphic Designer  
+📧 iddrisiddris100@gmail.com  
+📱 +254 724 464 248  
+📍 Nairobi, Kenya
 
 ## 🎯 Project Overview
 
-This portfolio website showcases a modern, professional design built entirely with HTML5 and CSS3. It features smooth animations, responsive design, and accessibility-focused development practices.
+This portfolio website showcases a modern, professional design built entirely with HTML5 and CSS3. It features smooth animations, responsive design, and accessibility-focused development practices with a **working contact form** powered by Formspree.
 
 ### 🎨 Design Features
 - **Modern Gradient Design** - Contemporary color schemes with smooth gradients
@@ -78,9 +81,9 @@ This portfolio website showcases a modern, professional design built entirely wi
 
 ### Core Technologies
 - **HTML5** - Semantic markup and accessibility
-- **CSS3** - Advanced styling and animations
-- **System Fonts** - High-quality typography without external dependencies
-- **Emoji Icons** - Universal symbols, no icon libraries needed
+- **CSS3** - Advanced styling and animations with custom SVG icons
+- **Formspree** - Backend contact form handling
+- **Custom SVG Icons** - Technology and social media icons using CSS masks
 
 ### CSS Features Implemented
 - **Flexbox & Grid** - Modern layout systems
@@ -117,10 +120,10 @@ This portfolio website showcases a modern, professional design built entirely wi
 
 ### Color Palette
 ```css
-Primary Gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%)
+Primary Gradient: linear-gradient(135deg, #0275bc 0%, #764ba2 100%)
 Background: #f8f9fa to #e9ecef
 Text: #2c3e50 (dark), #666 (medium), rgba(255,255,255,0.9) (light)
-Accent: #667eea
+Accent: #0275bc
 ```
 
 ### Typography
@@ -136,8 +139,15 @@ Accent: #667eea
 
 ## 🚀 Getting Started
 
+### Live Demo
+🌐 **[View Live Portfolio](https://portfolio-hackathon-iydreess.vercel.app)**
+
 ### Local Development
-1. Clone or download the repository
+1. Clone or download the repository:
+   ```bash
+   git clone https://github.com/Iydreess/Portfolio_Hackathon.git
+   cd Portfolio_Hackathon
+   ```
 2. Open `index.html` in your web browser
 3. No build tools required - pure HTML/CSS
 
@@ -267,9 +277,11 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 📞 Contact & Support
 
 ### Get in Touch
-- **Email**: iddris.swedi@email.com
-- **LinkedIn**: [Connect with me](https://linkedin.com/in/iddris-swedi)
-- **GitHub**: [Follow my work](https://github.com/iddris-swedi)
+- **Email**: iddrisiddris100@gmail.com
+- **Phone**: +254 724 464 248
+- **Location**: Nairobi, Kenya
+- **LinkedIn**: [Connect with me](https://www.linkedin.com/in/iddris-rashid-swedi)
+- **GitHub**: [Follow my work](https://github.com/Iydreess)
 
 ### Portfolio Features
 - ✅ Fully responsive design
@@ -279,7 +291,11 @@ This project is open source and available under the [MIT License](LICENSE).
 - ✅ SEO optimized
 - ✅ Performance optimized
 - ✅ Print-friendly
-- ✅ Dark mode ready
+- ✅ Custom SVG icons with CSS masks
+- ✅ Formspree contact form integration
+- ✅ Real social media links
+- ✅ Downloadable CV (PDF format)
+- ✅ Live project showcases
 
 ## 🏆 Project Achievement
 
@@ -295,6 +311,8 @@ This portfolio was created for the **Power Learn Project - Portfolio Building Ha
 
 **Built with ❤️ using only HTML and CSS**  
 *Showcasing the power of modern web standards*
-#   P o r t f o l i o _ H a c k a t h o n  
- #   P o r t f o l i o _ H a c k a t h o n  
+#   P o r t f o l i o _ H a c k a t h o n 
+ 
+ #   P o r t f o l i o _ H a c k a t h o n 
+ 
  

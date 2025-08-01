@@ -1270,15 +1270,45 @@ p {
     font-size: 1.2rem;
 }
 
+/* Footer Social Links Styling */
+.footer .social-links {
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+.footer .social-link {
+    width: 48px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    font-size: 1.2rem;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer .social-link:hover {
+    background: #0275bc;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 8px 25px rgba(2, 117, 188, 0.3);
+}
+
+.footer .social-link .social-icon {
+    color: white;
+    transition: all 0.3s ease;
+}
+
 .footer-bottom {
     padding-top: 2rem;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     text-align: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1rem;
 }
 
 .footer-bottom p {
