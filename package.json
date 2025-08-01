@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-hackathon",
+  "version": "1.0.0",
+  "description": "Personal portfolio for Power Learn Project Portfolio Building Hackathon",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'Static site - no build needed'",
+    "dev": "npx serve . -l 3000"
+  },
+  "keywords": [
+    "portfolio",
+    "html",
+    "css",
+    "web-development",
+    "hackathon"
+  ],
+  "author": "Iddris Rashid Swedi <iddrisiddris100@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Iydreess/portfolio-hackathon.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

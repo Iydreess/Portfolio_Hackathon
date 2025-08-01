@@ -1,0 +1,93 @@
+/* ===================================
+   LOCAL FONTS - NO EXTERNAL DEPENDENCIES
+   =================================== */
+
+/* Instructions for adding local fonts:
+   
+   1. Download fonts from free sources like:
+      - Google Fonts (download .woff2 files)
+      - Font Squirrel (web font generator)
+      - Adobe Fonts (if you have subscription)
+   
+   2. Place font files in this fonts folder
+   
+   3. Uncomment and modify the @font-face rules below
+   
+   Example structure:
+   assets/
+   └── fonts/
+       ├── poppins-regular.woff2
+       ├── poppins-semibold.woff2
+       ├── inter-regular.woff2
+       └── inter-medium.woff2
+*/
+
+/* ===================================
+   LOCAL FONT DECLARATIONS - READY TO USE!
+   =================================== */
+
+/* Inter Font Family */
+@font-face {
+    font-family: 'Inter';
+    src: url('./Inter-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./Inter-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Poppins Font Family */
+@font-face {
+    font-family: 'Poppins';
+    src: url('./Poppins-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./Poppins-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ===================================
+   SYSTEM FONT STACKS (NO DOWNLOADS NEEDED)
+   =================================== */
+
+:root {
+    /* Local fonts with system font fallbacks */
+    --font-heading: 'Poppins', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    --font-body: 'Inter', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    --font-mono: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+}
+
+/* Alternative excellent system fonts */
+.font-stack-elegant {
+    font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.font-stack-modern {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.font-stack-classic {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Font weights for system fonts */
+.font-light { font-weight: 300; }
+.font-regular { font-weight: 400; }
+.font-medium { font-weight: 500; }
+.font-semibold { font-weight: 600; }
+.font-bold { font-weight: 700; }
+.font-extrabold { font-weight: 800; }

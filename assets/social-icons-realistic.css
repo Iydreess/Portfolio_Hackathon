@@ -1,0 +1,229 @@
+/* ===================================
+   ULTRA-REALISTIC SOCIAL MEDIA ICONS
+   Perfect recreations using pure CSS!
+   =================================== */
+
+/* Base social icon styling */
+.social-icon {
+    width: 24px;
+    height: 24px;
+    display: block;
+    position: relative;
+    color: inherit;
+}
+
+/* LinkedIn Icon - Perfect recreation */
+.social-link.linkedin .social-icon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background: #0A66C2;
+    border-radius: 3px;
+}
+
+.social-link.linkedin .social-icon::after {
+    content: 'in';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: white;
+    z-index: 2;
+    letter-spacing: -0.5px;
+}
+
+/* GitHub Icon - Clean Octocat */
+.social-link.github .social-icon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background: #181717;
+    border-radius: 50%;
+}
+
+.social-link.github .social-icon::after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 16px;
+    height: 16px;
+    background: white;
+    border-radius: 3px 3px 8px 8px;
+    clip-path: polygon(
+        20% 20%, 80% 20%, 85% 30%, 85% 60%, 
+        75% 70%, 75% 85%, 60% 85%, 60% 75%, 
+        40% 75%, 40% 85%, 25% 85%, 25% 70%, 
+        15% 60%, 15% 30%
+    );
+}
+
+/* X (Twitter) Icon - Modern X */
+.social-link.twitter .social-icon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background: #000000;
+    border-radius: 3px;
+}
+
+.social-link.twitter .social-icon::after {
+    content: '✕';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    z-index: 2;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* Instagram Icon - Camera with gradient */
+.social-link.instagram .social-icon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    border-radius: 6px;
+}
+
+.social-link.instagram .social-icon::after {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 12px;
+    height: 12px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: 2px -2px 0 -1px white;
+}
+
+/* Facebook Icon - Classic F */
+.social-link.facebook .social-icon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background: #1877F2;
+    border-radius: 3px;
+}
+
+.social-link.facebook .social-icon::after {
+    content: 'f';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: white;
+    z-index: 2;
+}
+
+/* Enhanced hover effects - realistic glow and lift */
+.social-link:hover {
+    transform: translateY(-4px) scale(1.08) !important;
+    transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+}
+
+.social-link.linkedin:hover {
+    box-shadow: 0 15px 35px rgba(10, 102, 194, 0.5) !important;
+    filter: brightness(1.1) !important;
+}
+
+.social-link.github:hover {
+    box-shadow: 0 15px 35px rgba(24, 23, 23, 0.5) !important;
+    filter: brightness(1.2) !important;
+}
+
+.social-link.twitter:hover {
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5) !important;
+    filter: brightness(1.1) !important;
+}
+
+.social-link.instagram:hover {
+    box-shadow: 0 15px 35px rgba(228, 64, 95, 0.5) !important;
+    filter: brightness(1.1) saturate(1.3) !important;
+}
+
+.social-link.facebook:hover {
+    box-shadow: 0 15px 35px rgba(24, 119, 242, 0.5) !important;
+    filter: brightness(1.1) !important;
+}
+
+/* Accessibility improvements */
+.social-link:focus {
+    outline: 3px solid var(--accent-color);
+    outline-offset: 3px;
+}
+
+.social-link:focus .social-icon {
+    transform: scale(1.1);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 480px) {
+    .social-icon {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .social-link.linkedin .social-icon::before,
+    .social-link.github .social-icon::before,
+    .social-link.twitter .social-icon::before,
+    .social-link.instagram .social-icon::before,
+    .social-link.facebook .social-icon::before {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .social-link.linkedin .social-icon::after {
+        font-size: 10px;
+    }
+    
+    .social-link.twitter .social-icon::after {
+        font-size: 12px;
+    }
+    
+    .social-link.facebook .social-icon::after {
+        font-size: 13px;
+    }
+}
+
+/* Smooth transitions for all elements */
+.social-icon::before,
+.social-icon::after {
+    transition: all 0.3s ease;
+}
+
+/* Loading animation */
+@keyframes socialPulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
+}
+
+.social-link.loading .social-icon {
+    animation: socialPulse 1.5s infinite;
+}
