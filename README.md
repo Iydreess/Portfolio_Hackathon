@@ -309,7 +309,8 @@ This portfolio was created for the **Power Learn Project - Portfolio Building Ha
 
 ---
 
-**Built with ❤️ using only HTML and CSS**  
+**The way the web was meant to be built – clean and simple**  
 *Showcasing the power of modern web standards*
 #
+
 
