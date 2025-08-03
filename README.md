@@ -311,8 +311,6 @@ This portfolio was created for the **Power Learn Project - Portfolio Building Ha
 
 **The way the web was meant to be built – clean and simple**  
 *Showcasing the power of modern web standards*
-#   P o r t f o l i o _ H a c k a t h o n 
- 
- #   P o r t f o l i o _ H a c k a t h o n 
- 
- 
+#
+
+
