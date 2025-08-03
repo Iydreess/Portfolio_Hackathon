@@ -140,7 +140,7 @@ Accent: #0275bc
 ## 🚀 Getting Started
 
 ### Live Demo
-🌐 **[View Live Portfolio](https://portfolio-hackathon-iydreess.vercel.app)**
+🌐 **[View Live Portfolio](https://plp-myportfolio-hackathon.vercel.app/)**
 
 ### Local Development
 1. Clone or download the repository:
@@ -309,7 +309,7 @@ This portfolio was created for the **Power Learn Project - Portfolio Building Ha
 
 ---
 
-**Built with ❤️ using only HTML and CSS**  
+**The way the web was meant to be built – clean and simple**  
 *Showcasing the power of modern web standards*
 #   P o r t f o l i o _ H a c k a t h o n 
  
